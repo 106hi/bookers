@@ -14,7 +14,6 @@ class BooksController < ApplicationController
       flash[:notice] = 'Book was successfully created.'
       redirect_to book_path(book.id)
     else
-      flash[:alert] = '入力してください。'
       render :index
     end
   end
