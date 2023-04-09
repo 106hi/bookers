@@ -1,13 +1,17 @@
+<div class="detail">
 <h5>Title:</h5>
-<p><%= @book.title %></p>
+<%= @book.title %>
+</div>
 
+<div class="detail">
 <h5>Body:</h5>
-<p><%= @book.body %></p>
+<%= @book.body %>
+</div>
 
-<span>
+<a class="link">
   <%= link_to "Edit", edit_book_path(@book.id) %>
-</span>
-
-<span>
+</a>
+|
+<a class="link">
   <%= link_to "Back", books_path %>
-</span>
+</a>

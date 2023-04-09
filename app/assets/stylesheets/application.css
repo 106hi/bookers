@@ -20,14 +20,68 @@
   box-sizing: border-box;
 }
 
-h1{
+body{
+  font-size:13px;
+}
 
+p{
+  margin:50px;
+}
+
+h1{
+  font-weight:bold;
+  font-size:2em;
 }
 
 th{
+  padding-top:10px;
+  font-weight:bold;
+}
 
+td{
+  padding:0 5px 5px;
+}
+
+h2{
+  margin:20px 5px 10px;
+  font-weight:bold;
 }
 
 body{
   margin:30px;
+}
+
+.area{
+  margin-bottom:10px;
+}
+
+label{
+  display:block;
+}
+
+bottom{
+  display:block;
+  margin:10px 0 10px;
+}
+
+.detail{
+  margin:30px;
+}
+
+h5{
+  display:inline-block;
+  font-weight:bold;
+  font-size:1em;
+}
+
+.text-success{
+  color:green;
+}
+
+.error{
+  color:red;
+}
+
+.error-message{
+  padding:3px;
 }
