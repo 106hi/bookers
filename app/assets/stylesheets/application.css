@@ -25,17 +25,25 @@ body{
 }
 
 p{
-  margin:50px;
+  margin:30px;
 }
 
 h1{
+  margin-bottom:10px;
   font-weight:bold;
   font-size:2em;
+  font-family:arial black,impact;
+}
+
+b{
+  margin:0 5px 0;
+  font-family:arial black;
 }
 
 th{
   padding-top:10px;
   font-weight:bold;
+  font-family:arial;
 }
 
 td{
@@ -45,6 +53,7 @@ td{
 h2{
   margin:20px 5px 10px;
   font-weight:bold;
+  font-family:arial black;
 }
 
 body{
@@ -84,4 +93,9 @@ h5{
 
 .error-message{
   padding:3px;
+  font-weight:bold;
+}
+
+ul{
+  padding:0 30px 15px;
 }

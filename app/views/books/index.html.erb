@@ -25,7 +25,7 @@
 <h2>New book</h2>
 <div class="error">
 <% if @book.errors.any? %>
-  <p class="error-message"><%= @book.errors.count %> error prohibited this book from being saved:</p>
+  <div class="error-message"><%= @book.errors.count %> error prohibited this book from being saved:</div>
   <ul>
     <% @book.errors.full_messages.each do |message| %>
       <li><%= message %></li>
